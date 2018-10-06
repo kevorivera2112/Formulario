@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form action="/action_page.php">
+<fieldset>
+<legend>Personal information:</legend>
+Name: <input type="text" name="name"></br>
+Apellido: <input type="text" name="name"></br>
+Facultad: <select name = "dropdown">
+              <option value = "Computer" selected>Computer</option>
+              <option value = "Medicina" selected>Medicina</option>               		  
+	      <option value = "Contabilidad" selected>None</option>
+  	      <option value = "Ingenieria" selected>Ingenieria</option>
+          </select>
+            <br></br>
+  Sexo:<br> 
+  	<input type="radio" name="gender" value="male" checked> Masculino<br>
+  	<input type="radio" name="gender" value="female"> Femenino<br>
+  
+Cursos tomados hasta ahora</br>
+	<input type = "checkbox" name = "Precalculo" value = "on"> Precalculo</br>
+	<input type = "checkbox" name = "Fisica" value = "on"> Fisica</br>
+	<input type = "checkbox" name = "Web design" value = "on"> Web design</br>
+Comentario al profesor : <br />
+         <textarea rows = "5" cols = "50" name = "description">
+           Entre el comentario
+         </textarea>
+         <br></br>
+	<input type="submit" value="submit">
+	<input type="Reset" value="Reset">
+	&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+	<input type="file" value ="Upload Document">
+  </fieldset>
+</form>
+
+</body>
+</html>
